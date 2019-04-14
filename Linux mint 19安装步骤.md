@@ -10,18 +10,20 @@
 1. 不要联网：如果联网安装是会下载语言包，巨慢。
 2. 选择英文：安装时选择英文。到时候自己下载语言包就可以。如果选择中文的话会有字体问题。
 ## 换国内源
+1. 进入 Menu->Software Scoures
+2. 先点击Update the cache 更新 源列表 然后就可以选择源了(根据网速选择快的源)。
 ```
-进入 Menu->Software Scoures
-先点击Update the cache 更新 源列表 然后就可以选择源了。
-可以根据网速选择快的源
+$ sudo apt update $ sudo apt upgrade
 ```
-执行 sudo apt update 和 sudo apt upgrade 命令了，进行更新。
 ## 安装语言包
 ```
-sudo apt-get install language-pack-zh-hans language-pack-gnome-zh-hans libreoffice-l10n-zh-cn thunderbird-locale-zh-hans firefox-locale-zh-hans
+$ sudo apt-get install language-pack-zh-hans language-pack-gnome-zh-hans libreoffice-l10n-zh-cn thunderbird-locale-zh-hans firefox-locale-zh-hans
 ```
 进入 Menu->Language设置语言
 ## 安装搜狗输入法
 1. 搜狗官网下载linux版的.deb文件直接双击就好了，重新启动
 2. 打开Fcitx配置
-
+## 安装多媒体插件
+```
+$ sudo apt-get install mint-meta-codecs
+```
