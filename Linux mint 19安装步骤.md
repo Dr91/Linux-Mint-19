@@ -27,3 +27,12 @@ $ sudo apt-get install language-pack-zh-hans language-pack-gnome-zh-hans libreof
 ```
 $ sudo apt-get install mint-meta-codecs
 ```
+## 清洁系统
+```
+删除未完全安装的软件包： 
+$ sudo apt-get autoclean 
+删除apt-cache： 
+$ sudo apt-get clean 
+删除不需要的软件依赖项： 
+$ sudo apt-get autoremove 
+```
