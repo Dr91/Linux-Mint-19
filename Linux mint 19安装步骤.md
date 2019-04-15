@@ -29,10 +29,12 @@ $ sudo apt-get install mint-meta-codecs
 ```
 ## 清洁系统
 ```
-删除未完全安装的软件包： 
+将已经删除了的软件包的.deb安装文件从硬盘中删除： 
 $ sudo apt-get autoclean 
-删除apt-cache： 
+删除包缓存中的所有包： 
 $ sudo apt-get clean 
-删除不需要的软件依赖项： 
+删除为了满足其他软件包的依赖而安装的，但现在不再需要的软件包： 
 $ sudo apt-get autoremove 
+删除已安装的软件包（保留配置文件）:
+$ sudo apt-get --purge remove 软件包名称
 ```
