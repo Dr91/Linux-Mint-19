@@ -62,10 +62,10 @@ $ sudo apt-get install atom
 
 一般卸载步骤
 1.先卸载软件
-$sudo apt-get remove atom
+$ sudo apt-get remove atom
 2.再卸载依赖库
-$sudo add-apt-repository --remove ppa:webupd8team/atom
+$ sudo add-apt-repository --remove ppa:webupd8team/atom
 3.再使用autoremove
-$sudo apt-get autoremove
+$ sudo apt-get autoremove
 ```
 
