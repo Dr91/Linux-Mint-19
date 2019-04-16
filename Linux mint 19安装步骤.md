@@ -49,8 +49,9 @@ $ sudo apt-get install -f
 -f参数的主要作用是是修复依赖关系（depends），假如用户的系统上有某个package不满足依赖条件，这个命令就会自动修复，安装程序包所依赖的包。
 2.
 $ sudo apt-get install 软件包名称：
-
-一般安装步骤
+```
+##一般安装/卸载步骤
+```
 eg:安装atom时：
 1.一般安装软件前需要更新依赖库
 $ sudo add-apt-repository ppa:webupd8team/atom
@@ -58,4 +59,13 @@ $ sudo add-apt-repository ppa:webupd8team/atom
 $ sudo apt-get update
 3.最后安装该软件
 $ sudo apt-get install atom
+
+一般卸载步骤
+1.先卸载软件
+$sudo apt-get remove atom
+2.再卸载依赖库
+$sudo add-apt-repository --remove ppa:webupd8team/atom
+3.再使用autoremove
+$sudo apt-get autoremove
+```
 
