@@ -1,4 +1,8 @@
 
-## 安装搜狗输入法
+## 搜狗输入法
 1. 搜狗官网下载linux版的.deb文件直接双击就好了，重新启动
 2. 打开Fcitx配置
+## Akregator-- news RSS/Atom feed reader for KDE
+```
+$ sudo apt install akregator
+```
