@@ -23,9 +23,7 @@ $ sudo apt upgrade
 $ sudo apt-get install language-pack-zh-hans language-pack-gnome-zh-hans libreoffice-l10n-zh-cn thunderbird-locale-zh-hans firefox-locale-zh-hans
 ```
 进入 Menu->Language设置语言
-## 安装搜狗输入法
-1. 搜狗官网下载linux版的.deb文件直接双击就好了，重新启动
-2. 打开Fcitx配置
+
 ## 安装多媒体插件
 ```
 $ sudo apt-get install mint-meta-codecs
