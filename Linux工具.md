@@ -9,9 +9,11 @@ $ sudo apt install akregator
 ## Atom–适用于 Linux 的可破解文本和源代码编辑器
 ###### 参考资料 https://www.tecmint.com/10-useful-free-linux-ebooks-for-newbies-and-administrators/
 ```
-$ wget https://atom.io/download/deb		[On Debain based systems]
-$ sudo dpkg -i deb                    [On Debain based systems]
+[On Debain based systems]
+$ wget https://atom.io/download/deb		
+$ sudo dpkg -i deb
 
-$ wget https://atom.io/download/rpm		[On RedHat based systems]
-# rpm -ivh rpm                        [On RedHat based systems]
+[On RedHat based systems]
+$ wget https://atom.io/download/rpm		
+# rpm -ivh rpm                        
 ```
