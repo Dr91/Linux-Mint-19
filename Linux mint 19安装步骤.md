@@ -12,8 +12,9 @@
 ## 换国内源
 1. 进入 Menu->Software Scoures
 2. 先点击Update the cache 更新 源列表 然后就可以选择源了(根据网速选择快的源)。
+## 更新apt-get 
 ```
-## 更新 /etc/apt/sources.list 和 /etc/apt/sources.list.d 中列出的源的地址,这样才能获取到最新的软件包
+/etc/apt/sources.list 和 /etc/apt/sources.list.d 中列出的源的地址,这样才能获取到最新的软件包
 $ sudo apt update 
 升级已安装的所有软件包，升级的版本就是更新的源地址里的版本，因此，在执行 upgrade 之前一定要执行 update
 $ sudo apt upgrade
@@ -28,7 +29,7 @@ $ sudo apt-get install language-pack-zh-hans language-pack-gnome-zh-hans libreof
 ```
 $ sudo apt-get install mint-meta-codecs
 ```
-## 清洁系统
+## 清洁系统（卸载apt-get）
 ```
 将已经删除了的软件包的.deb安装文件从硬盘中删除： 
 $ sudo apt-get autoclean 
