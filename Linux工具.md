@@ -10,5 +10,8 @@ $ sudo apt install akregator
 ###### 参考资料 https://www.tecmint.com/10-useful-free-linux-ebooks-for-newbies-and-administrators/
 ```
 $ wget https://atom.io/download/deb		[On Debain based systems]
+$ sudo dpkg -i deb                    [On Debain based systems]
+
 $ wget https://atom.io/download/rpm		[On RedHat based systems]
+# rpm -ivh rpm                        [On RedHat based systems]
 ```
