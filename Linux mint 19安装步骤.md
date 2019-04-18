@@ -50,7 +50,7 @@ $ sudo apt-get install -f
 2.
 $ sudo apt-get install 软件包名称：
 ```
-##一般安装/卸载步骤
+##  一般安装/卸载步骤
 ```
 eg:安装atom时：
 1.一般安装软件前需要更新依赖库
@@ -68,4 +68,6 @@ $ sudo add-apt-repository --remove ppa:webupd8team/atom
 3.再使用autoremove
 $ sudo apt-get autoremove
 ```
-
+1. update：当执行apt-get update时，update重点更新的是来自软件源的软件包的索引记录（即index files）。
+2. upgrade：当执行apt-get upgrade时，upgrade是根据update更新的索引记录来下载并更新软件包。
+3. dist-upgrade:当执行apt-get dist-upgrade时，除了拥有upgrade的全部功能外，dist-upgrade会比upgrade更智能地处理需要更新的软件包的依赖关系。从上述可以看出，在执行apt-get upgrade和apt-get dist-upgrade之前应该先执行apt-get update。
