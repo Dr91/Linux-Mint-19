@@ -34,4 +34,8 @@ sudo snap install clion
 sudo snap install pycharm
 # 网易云音乐
 sudo snap install netease-music --devmode --beta
+# 微信
+sudo snap install electronic-wechat deepin-music
+
+```
 
